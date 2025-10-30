@@ -3,7 +3,7 @@ name: Build Docker Image & Deploy to EC2 (No Registry)
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 
 concurrency:
